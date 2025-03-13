@@ -245,6 +245,9 @@ def main():
 
 def macro_calculator():
     st.title("Macro Calculator")
+    st.write("Please add your information on the sidebar")
+    st.write("After filling the information please press **Calculate Macros**")
+    st.write("The next step is pressing **Plan Meals**")
 
     # Create sidebar for inputs
     st.sidebar.header("Client Information")
